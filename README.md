@@ -3,7 +3,6 @@
 A sleek and interactive **Movie Recommendation System** built with **Streamlit**, **Python**, and **TMDB API**.  
 Discover movies similar to your favorites with detailed information including posters, genres, cast, crew, and ratings.
 
-
 ## 🌟 Features
 
 - **Search your favorite movie:** Type a movie name to get recommendations.
@@ -20,16 +19,17 @@ Discover movies similar to your favorites with detailed information including po
 - Scikit-learn – For TF-IDF and cosine similarity calculations
 - TMDB API – For movie posters and metadata
 
-
 ## 📂 Project Structure
 
+```text
 MovieRecommendationSystem/
-├── main.py # Main Streamlit app
-├── movies.csv # Movies dataset
-├── credits.csv # Movie credits dataset
-├── .env # API key for TMDB (ignored in Git)
-├── requirements.txt # Project dependencies
-└── README.md # Project documentation
+├── main.py             # Main Streamlit app
+├── movies.csv          # Movies dataset
+├── credits.csv         # Movie credits dataset
+├── .env                # API key for TMDB (ignored in Git)
+├── requirements.txt    # Project dependencies
+└── README.md           # Project documentation
+```
 
 ## ⚡ Installation & Setup
 
